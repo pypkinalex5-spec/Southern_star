@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Южная звезда — крюинговая компания</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <div class="page-inner">
+      <header>
+        <nav class="nav" id="nav">
+          <div class="logo">
+            <div class="logo-mark">ЮЗ</div>
+            <div>
+              <div class="logo-text-main" data-i18n-en="Southern Star">Южная звезда</div>
+              <div class="logo-text-sub" data-i18n-en="Crewing company">Крюинговая компания</div>
+            </div>
+          </div>
+
+          <div class="nav-links">
+            <a href="index.html" class="active" data-i18n-en="Home">Главная</a>
+            <a href="vacancies.html" data-i18n-en="Vacancies">Вакансии</a>
+            <a href="contacts.html" data-i18n-en="Contacts">Контакты</a>
+          </div>
+
+          <div class="lang-switch">
+            <button class="lang-btn" data-set-lang="ru">RU</button>
+            <button class="lang-btn" data-set-lang="en">EN</button>
+          </div>
+
+          <div class="nav-cta">
+            <button class="btn btn-outline"
+                    onclick="window.location='vacancies.html'"
+                    data-i18n-en="Open vacancies">
+              Открытые вакансии
+            </button>
+            <button class="btn btn-primary"
+                    onclick="window.location='contacts.html'"
+                    data-i18n-en="Submit application →">
+              Отправить анкету →
+            </button>
+          </div>
+
+          <button class="nav-toggle" id="navToggle" aria-label="Меню">☰</button>
+        </nav>
+      </header>
+
+      <main>
+        <!-- HERO -->
+        <section class="hero">
+          <div>
+            <div class="eyebrow"
+                 data-i18n-en="CREWING COMPANY • BULK &amp; CONTAINER FLEET">
+              КРЮИНГОВАЯ КОМПАНИЯ • БАЛКЕРЫ И КОНТЕЙНЕРОВОЗЫ
+            </div>
+
+            <h1 data-i18n-en-html="Full crewing service<br />for <span>bulk and container fleet</span>">
+              Полный крюинговый сервис<br />
+              для <span>балкерного и контейнерного флота</span>
+            </h1>
+
+            <p class="hero-subtitle"
+               data-i18n-en="“Southern Star” is a crewing company from Yuzhne, Odesa region (Ukraine). We work with bulk carriers and container vessels and cooperate with Indian companies in Dubai.">
+              «Южная звезда» — крюинговая компания из г. Южный (Одесская область, Украина).
+              Работаем с балкерами и контейнеровозами, сотрудничаем с индийскими компаниями в Дубае.
+            </p>
+
+            <div class="hero-badges">
+              <span class="badge" data-i18n-en="Fleet: bulk carrier &amp; container">
+                Флот: bulk carrier &amp; container
+              </span>
+              <span class="badge" data-i18n-en="License No. 435465/1998">
+                Лицензия № 435465/1998
+              </span>
+              <span class="badge"
+                    data-i18n-en="Director: Zherebko Anatolii Heorhiiovych">
+                Директор: Жеребко Анатолий Георгиевич
+              </span>
+            </div>
+
+            <div class="hero-actions">
+              <button class="btn btn-primary"
+                      onclick="window.location='vacancies.html'"
+                      data-i18n-en="I am a seafarer">
+                Я моряк
+              </button>
+              <button class="btn btn-outline"
+                      onclick="window.location='contacts.html'"
+                      data-i18n-en="I am a shipowner">
+                Я судовладелец
+              </button>
+            </div>
+
+            <p class="hero-note"
+               data-i18n-en="We can start selecting crew for your bulk or container vessels considering Indian companies’ requirements.">
+              Уже сейчас можем подобрать экипаж под ваш балкерный или контейнерный флот
+              с учётом требований индийских компаний.
+            </p>
+
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <span data-i18n-en="Main regions">Основные направления</span>
+                <strong data-i18n-en="India • Dubai • Europe">Индия • Дубай • Европа</strong>
+              </div>
+              <div class="hero-stat">
+                <span data-i18n-en="Office phone">Телефон офиса</span>
+                <strong class="js-phone"></strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <!-- Здесь потом появится фото контейнеровоза -->
+            <div class="hero-visual-overlay">
+              <div class="hero-visual-card">
+                <div data-i18n-en="Focus on bulk & container fleet for Indian shipowners in Dubai.">
+                  Фокус на балкерном и контейнерном флоте для индийских судовладельцев в Дубае.
+                </div>
+              </div>
+              <div class="hero-visual-footer"
+                   data-i18n-en="Office address: 65481, Ukraine, Odesa region, Yuzhne, Stroiteley Ave., 11a, office 4">
+                Адрес: 65481, Украина, Одесская обл., г. Южный,
+                пр. Строителей, 11а, офис 4
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+          <div class="section-header">
+            <div>
+              <div class="section-title" data-i18n-en="About “Southern Star”">
+                О компании «Южная звезда»
+              </div>
+              <p class="section-subtitle"
+                 data-i18n-en="Crewing company for bulk carriers and container vessels.">
+                Крюинговая компания для балкеров и контейнеровозов.
+              </p>
+            </div>
+            <div class="section-tag"
+                 data-i18n-en="Yuzhne • Odesa region • Ukraine">
+              Южный • Одесская область • Украина
+            </div>
+          </div>
+
+          <div class="about-grid">
+            <div class="card">
+              <div class="prose">
+                <p data-i18n-en="We provide selection of officers, ratings and cadets for bulk and container fleet.">
+                  Мы подбираем офицерский, рядовой состав и кадетов для балкерного и контейнерного флота.
+                </p>
+                <p data-i18n-en="We work transparently, without fees from seafarers.">
+                  Работаем прозрачно, без комиссий с моряков.
+                </p>
+              </div>
+
+              <div class="about-highlights">
+                <div class="about-highlight">
+                  <strong data-i18n-en="Experience since 1998">Опыт с 1998 года</strong>
+                  <span data-i18n-en="License No. 435465/1998. Director: Zherebko A. G.">
+                    Лицензия № 435465/1998. Директор: Жеребко Анатолий Георгиевич.
+                  </span>
+                </div>
+                <div class="about-highlight">
+                  <strong data-i18n-en="Indian companies in Dubai">
+                    Индийские компании в Дубае
+                  </strong>
+                  <span data-i18n-en="We cooperate with Indian shipping companies via Dubai offices.">
+                    Сотрудничаем с индийскими судоходными компаниями через офисы в Дубае.
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <ul class="about-list">
+                <li data-i18n-en="• Selection of crew for bulk carriers and container vessels.">
+                  • Подбор экипажей для балкеров и контейнеровозов.
+                </li>
+                <li data-i18n-en="• Pre-screening and checking documents.">
+                  • Предварительный отбор и проверка документов.
+                </li>
+                <li data-i18n-en="• Support with medicals, visas and flights.">
+                  • Поддержка медкомиссии, виз и перелётов.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section id="services">
+          <div class="section-header">
+            <div>
+              <div class="section-title" data-i18n-en="Main services">
+                Основные услуги
+              </div>
+              <p class="section-subtitle"
+                 data-i18n-en="From selection to embarkation of crew.">
+                От подбора до выхода экипажа на судно.
+              </p>
+            </div>
+            <div class="section-tag">Bulk • Container</div>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="service-label">01</div>
+              <div class="service-title" data-i18n-en="Crew selection">
+                Подбор экипажа
+              </div>
+              <p class="service-desc" data-i18n-en="Officers, ratings and cadets.">
+                Офицерский состав, рядовой состав и кадеты.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-label">02</div>
+              <div class="service-title" data-i18n-en="Documents">
+                Документы
+              </div>
+              <p class="service-desc" data-i18n-en="Checking certificates and experience.">
+                Проверка сертификатов, документов и стажа.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-label">03</div>
+              <div class="service-title" data-i18n-en="Medicals &amp; travel">
+                Медкомиссия и перелёты
+              </div>
+              <p class="service-desc" data-i18n-en="Assistance with medicals, visas and flights.">
+                Организация медкомиссии, виз и перелётов.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <!-- GALLERY -->
+        <section id="gallery">
+          <div class="section-header">
+            <div>
+              <div class="section-title" data-i18n-en="Photo gallery">
+                Фотогалерея
+              </div>
+              <p class="section-subtitle"
+                 data-i18n-en="Bulk carriers, container vessels, port and crew.">
+                Балкеры, контейнеровозы, порт и работа экипажа.
+              </p>
+            </div>
+            <div class="section-tag">Bulk • Container • Port</div>
+          </div>
+
+          <div class="gallery-grid">
+            <!-- Когда вы загрузите свои фото на GitHub,
+                 назовите файлы, как указано ниже -->
+            <article class="gallery-item">
+              <img src="bulk-1.jpg" alt="Bulk carrier" />
+              <div class="gallery-overlay">
+                <div class="gallery-caption"
+                     data-i18n-en-html="<strong>Bulk carrier</strong>Bulk carrier at sea">
+                  <strong>Балкер</strong>
+                  Балкер в море
+                </div>
+              </div>
+            </article>
+
+            <article class="gallery-item">
+              <img src="container-1.jpg" alt="Container vessel" />
+              <div class="gallery-overlay">
+                <div class="gallery-caption"
+                     data-i18n-en-html="<strong>Container vessel</strong>Container ship">
+                  <strong>Контейнеровоз</strong>
+                  Контейнеровоз
+                </div>
+              </div>
+            </article>
+
+            <article class="gallery-item">
+              <img src="port-1.jpg" alt="Port" />
+              <div class="gallery-overlay">
+                <div class="gallery-caption"
+                     data-i18n-en-html="<strong>Port</strong>Container terminal">
+                  <strong>Порт</strong>
+                  Контейнерный терминал
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div data-i18n-en="© “Southern Star”, 1998–2025. All rights reserved.">
+          © «Южная звезда», 1998–2025. Все права защищены.
+        </div>
+        <div class="footer-links">
+          <a href="index.html" data-i18n-en="Home">Главная</a>
+          <a href="vacancies.html" data-i18n-en="Vacancies">Вакансии</a>
+          <a href="contacts.html" data-i18n-en="Contacts">Контакты</a>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
